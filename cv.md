@@ -31,3 +31,18 @@ function multiply(a, b){
   return a * b
 }
 ```
+
+----------------------------------------
+
+## Courses
+
+- HTML [Code-Basics](https://code-basics.com/ru/languages/html) (completed), [Web.Dev](https://web.dev/learn/html/) (in progress);
+- CSS [Code-Basics](https://ru.code-basics.com/languages/css) (completed);
+- JavaScript [Code-Basics](https://ru.code-basics.com/languages/javascript) (completed); [JS Manual](https://learn.javascript.ru/) (in progress);
+
+----------------------------------------
+
+## Languages
+- English - B1;
+- Russian - Native;
+
