@@ -1,1 +1,1 @@
-# rsschool-cv
+https://vatrushkins-ve.github.io/rsschool-cv/
