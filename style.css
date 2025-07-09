@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
 }
@@ -84,7 +82,6 @@ ul {
   color: #ad6455;
 }
 
-/*MAIN LEFT*/
 
 .main__content {
   display: flex;
@@ -101,7 +98,6 @@ ul {
 .main__title-contacts {
   margin-bottom: 15px;
 }
-
 
 
 main li {
@@ -142,8 +138,6 @@ main li {
   font-weight: bold;
   text-transform: uppercase;
 }
-
-/*MAIN RIGHT*/
 
 .main__right-content {
   width: 70%;
@@ -206,6 +200,7 @@ main li {
 .main__list a {
   text-decoration: none;
   color: #ad6455;
+  transition: color 0.5s
 }
 
 .main__list a:hover {
@@ -241,9 +236,6 @@ main li {
 .main__code-bracket-3 {
   color: #633ada;
 }
-
-
-/*FOOTER*/
 
 .footer__container {
   display: flex;
