@@ -1,10 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV</title>
+  <meta charset="UTF-8">
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+  <link
+    href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900"
+    rel="stylesheet"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>CV</title>
 </head>
+
 <body>
+<header>
+  <div class="container">
+    <div class="header__container">
+      <div class="header__photo">
+        <img
+          class="header__image"
+          src="images/Avatar.jpg"
+          alt="photo"
+        >
+      </div>
+      <div class="header__info">
+        <h1 class="header__title">
+          <span class="span__element">&lt;</span>EVGENIA<span class="span__element">&gt;</span>
+          <span class="span__element">&lt;</span>VATRUSHKINA<span class="span__element">/&gt;</span>
+        </h1>
+        <h3 class="header__subtitle">
+          <span class="span__element">//</span>PROFESSIONAL PROCRASTINATOR
+          <span class="header__subtitle_span">//SOMETIMES A JUNIOR FRONT-END DEVELOPER</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <div class="main__content">
+      <div class="main__left-content">
+        <section class="main__contacts">
+          <h2 class="main__title-contacts"><span class="span__element">//</span>CONTACTS
+          </h2>
+          <div class="main__decor"></div>
+
+          <ul>
+            <li>
+              <img
+                src="images/logo/email.svg"
+                alt="icon email"
+                width="25"
+                height="25"
+              >
+              <p>vatruskinevgenia@gmail.com</p>
+            </li>
+            <li>
+              <img
+                src="images/logo/telegram.svg"
+                alt="icon telegram"
+                width="25"
+                height="25"
+              >
+              <p>vatruskina_evgenia</p>
+            </li>
+          </ul>
+        </section>
+        <section class="main__skills">
+          <h2 class="main__title-skills"><span class="span__element">//</span>SKILLS
+          </h2>
+          <ul>
+            <li>JavaScript Basics</li>
+            <li>HTML5</li>
+            <li>Git, GitHub</li>
+            <li>Adobe Photoshop</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+        <section class="main__languages">
+          <h2 class="main__title-languages">
+            <span class="span__element">//</span>LANGUAGES
+          </h2>
+          <ul>
+            <li>
+              <p class="language-name">Russian</p>
+              <p class="language-level"> - Native</p>
+            </li>
+            <li>
+              <p class="language-name">English</p>
+              <p class="language-level"> - B1</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="main__right-content">
+        <section>
+          <h2 class="main__title-about">
+            <span class="span__element">//</span>ABOUT ME
+          </h2>
+
+          <p class="main__text-about">
+            <span class="main__text-dec">My goal?</span> World domination — but let’s start with mastering the job.<br>
+            I’m motivated, responsible, and slightly obsessed with figuring stuff out — powered by stubbornness and endless Google searches.<br>
+            Not much experience yet — but plenty of curiosity, energy, and a strong Wi-Fi connection.<br>
+            Give me a keyboard, a task, and some caffeine — and watch me figure it out.<br>
+          </p>
+
+          <p class="main__text-strengths">
+            <span class="main__text-dec">My strengths:</span></p>
+          <ul class="main__text-strengths-list">
+            <li>I learn faster than most tutorials load;</li>
+            <li>I'm a workaholic... from 9 to 5. After that — professional procrastinator;</li>
+            <li>I love experimenting — sometimes even when I shouldn’t;</li>
+            <li>If I say I’ll do it, it’s already halfway done (unless caffeine runs out — then we have a problem);</li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="main__title-courses"><span class="span__element">//</span>COURSES
+          </h2>
+          <ul class="main__list">
+            <li class="main__list-item">
+              <p>HTML:</p>
+              <div>
+                <a
+                  href="https://code-basics.com/ru/languages/html"
+                  target="_blank"
+                >Code-Basics
+                </a>
+                (completed),
+              </div>
+              <div>
+                <a
+                  href="https://web.dev/learn/html/"
+                  target="_blank"
+                >Web.Dev
+                </a>
+                (in progress)
+              </div>
+            </li>
+            <li class="main__list-item">
+              <p>CSS:</p>
+              <div>
+                <a
+                  href="https://ru.code-basics.com/languages/css"
+                  target="_blank"
+                >Code-Basics
+                </a>
+                (completed)
+              </div>
+            </li>
+            <li class="main__list-item">
+              <p>JavaScript:</p>
+              <div>
+                <a
+                  href="https://ru.code-basics.com/languages/javascript"
+                  target="_blank"
+                >Code-Basics
+                </a>
+                (completed),
+              </div>
+              <div>
+                <a
+                  href="https://learn.javascript.ru/"
+                  target="_blank"
+                >JS Manual
+                </a>
+                (in progress)
+              </div>
+            </li>
+          </ul>
+
+        </section>
+        <section>
+          <h2 class="main__title-code">
+            <span class="span__element">//</span>CODE EXAMPLE
+          </h2>
+          <pre class="main__code-block">
+            <code>
+              <span class="main__code-var">const</span> makeItFunny = <span class="main__code-bracket">(</span>str, num<span class="main__code-bracket">)</span> => <span class="main__code-bracket">{</span>
+
+                 <span class="main__code-var">let</span> result = <span class="main__code-bracket-1">``</span>;
+                 <span class="main__code-var">let</span> i = <span class="main__code-bracket-1">0</span>;
+                 <span class="main__code-var">while</span> <span class="main__code-bracket">(</span>i &lt; str.<span class="main__code-bracket-2">length</span><span class="main__code-bracket">)</span> <span class="main__code-bracket-1">{</span>
+
+                    <span class="main__code-var">if</span> <span class="main__code-bracket-1">(</span><span class="main__code-bracket-2">(</span>i + <span class="main__code-bracket-1">1</span><span class="main__code-bracket-2">)</span> % num === <span class="main__code-bracket-1">0</span><span class="main__code-bracket-1">)</span> <span class="main__code-bracket-2">{</span>
+                       result = <span class="main__code-bracket-1">`</span>${result}$<span class="main__code-bracket-3">{</span>str<span class="main__code-bracket">[</span>i<span class="main__code-bracket">]</span>.<span class="main__code-bracket-2">toUpperCase()</span><span class="main__code-bracket-3">}</span><span class="main__code-bracket-1">`</span>;
+                    <span class="main__code-bracket-2">}</span> <span class="main__code-var">else</span> <span class="main__code-bracket-2">{</span>
+                       result = <span class="main__code-bracket-2">`</span>$<span class="main__code-bracket-3">{</span>result<span class="main__code-bracket-3">}</span>${str<span class="main__code-bracket">[</span>i<span class="main__code-bracket">]</span><span class="main__code-bracket-3">}</span><span class="main__code-bracket-2">`</span>;
+                    <span class="main__code-bracket-2">}</span>
+
+                    i++;
+                 <span class="main__code-bracket-1">}</span>
+
+                 <span class="main__code-var">return</span> result;
+              <span class="main__code-bracket">}</span>
+        </code></pre>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__container">
+      <a
+        class="footer__link"
+        href="https://rs.school/courses/javascript-ru/"
+      >
+        <img
+          class="rs_school"
+          src="images/logo/rs_school.svg"
+          alt="RSSchool Icon"
+          width="83"
+          height="30"
+        >
+
+      </a>
+      <p>© 2025</p>
+      <a
+        class="footer__link"
+        href="https://github.com/vatrushkins-ve"
+      >
+        <img
+          class="my-github"
+          src="images/logo/github-mark-white.svg"
+          alt="GitHub Icon"
+          width="30"
+          height="30"
+        >
+        <p>Visit my GitHub</p>
+      </a>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
+
